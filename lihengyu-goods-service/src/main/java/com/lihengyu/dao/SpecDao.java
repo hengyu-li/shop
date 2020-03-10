@@ -5,7 +5,6 @@ import java.util.List;
 import com.lihengyu.pojo.Spec;
 import com.lihengyu.pojo.SpecOption;
 
-
 /**
  * 
  * @author zhuzg
@@ -13,7 +12,7 @@ import com.lihengyu.pojo.SpecOption;
  */
 public interface SpecDao {
 
-	List<Spec> list(String name);
+	List<Spec> list( String name);
 
 	int addSpec(Spec spec);
 
@@ -30,5 +29,8 @@ public interface SpecDao {
 	int deleteSpecOtionsBatch(int[] ids);
 
 	int deleteSpecBatch(int[] ids);
+
+	List<Spec> listAll();
+	
 
 }

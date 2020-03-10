@@ -57,10 +57,13 @@ public class Brand implements Serializable {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
+		result = prime * result + deletedFlag;
+		result = prime * result + ((firstChar == null) ? 0 : firstChar.hashCode());
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		return result;
 	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -70,6 +73,13 @@ public class Brand implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Brand other = (Brand) obj;
+		if (deletedFlag != other.deletedFlag)
+			return false;
+		if (firstChar == null) {
+			if (other.firstChar != null)
+				return false;
+		} else if (!firstChar.equals(other.firstChar))
+			return false;
 		if (id == null) {
 			if (other.id != null)
 				return false;
@@ -82,7 +92,7 @@ public class Brand implements Serializable {
 			return false;
 		return true;
 	}
-	
+
 	
 
 }

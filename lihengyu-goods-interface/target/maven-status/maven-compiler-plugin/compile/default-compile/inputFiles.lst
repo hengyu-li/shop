@@ -1,3 +1,4 @@
+E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\pojo\Spu.java
 E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\service\GoodsService.java
 E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\service\SpecService.java
 E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\pojo\SpecOption.java
@@ -5,3 +6,6 @@ E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\jav
 E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\pojo\Brand.java
 E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\pojo\Spec.java
 E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\pojo\Category.java
+E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\pojo\Sku.java
+E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\pojo\SpuVo.java
+E:\CoreJava\1708DCMS\lihengyu-goods-parent\lihengyu-goods-interface\src\main\java\com\lihengyu\service\BrandService.java

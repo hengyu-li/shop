@@ -76,6 +76,11 @@ public class SpecServiceImpl implements SpecService{
 				return 1;
 	}
 
+	public List<Spec> listAll() {
+		// TODO Auto-generated method stub
+		return specDao.listAll();
+	}
+
 	
 	
 	

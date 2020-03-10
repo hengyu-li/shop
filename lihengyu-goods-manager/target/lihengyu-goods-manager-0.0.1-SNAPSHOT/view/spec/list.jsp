@@ -61,7 +61,10 @@
 					&nbsp;&nbsp; ${op.optionName}
 				</c:forEach>
 			</td>
-			
+			<td>
+				<button type="button" class="btn btn-danger" onclick="delSec(${spec.id})">删除</button>
+				<button type="button" class="btn btn-warning" onclick="openUpdateSpec(${spec.id})">修改</button>
+			</td>
 		</tr>
 	</c:forEach>
 	
